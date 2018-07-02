@@ -1,4 +1,4 @@
 module.exports = {
-  extends: '@3fs/eslint-config/configs/defaults',
+  extends: 'eslint-config-tcd/configs/defaults',
   env: { 'browser': true }
 };

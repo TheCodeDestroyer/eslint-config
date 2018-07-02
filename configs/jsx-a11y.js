@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@3fs',
+  extends: 'tcd',
   plugins: ['jsx-a11y'],
   /*
    * View link below for a11y rules documentation

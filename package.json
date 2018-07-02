@@ -1,7 +1,7 @@
 {
-  "name": "@3fs/eslint-config",
-  "version": "1.0.2",
-  "description": "3fs ESLint Config",
+  "name": "eslint-config-tcd",
+  "version": "0.0.27",
+  "description": "TCD ESLint Config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,15 +20,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3fs/eslint-config.git"
+    "url": "git+https://github.com/thecodedestroyer/eslint-config-tcd.git"
   },
   "keywords": [],
-  "author": "Nace Logar <nace.logar@3fs.si> (https://thecodedestroyer.com)",
+  "author": "Nace Logar <the.code.destroyer@gmail.com> (https://thecodedestroyer.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/3fs/eslint-config/issues"
+    "url": "https://github.com/thecodedestroyer/eslint-config-tcd/issues"
   },
-  "homepage": "https://github.com/3fs/eslint-config#readme",
+  "homepage": "https://github.com/thecodedestroyer/eslint-config-tcd#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.12.0",
     "@typescript-eslint/parser": "4.12.0",
