@@ -1,4 +1,4 @@
 module.exports = {
-  extends: '@3fs',
+  extends: 'tcd',
   env: { 'node': true }
 };

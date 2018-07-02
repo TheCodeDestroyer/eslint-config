@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm install @3fs/eslint-config [eslint@4.19.1]
+npm install eslint-config-tcd [eslint@4.19.1]
 ```
 
 ## Usage
@@ -18,14 +18,14 @@ official ESLint website.
 To use this shareable config, first run this:
 
 ```sh
-npm install --save-dev eslint@4.19.1 @3fs/eslint-config
+npm install --save-dev eslint@4.19.1 eslint-config-tcd
 ```
 
 Then, add this to your .eslintrc(.js|.json|.yml) file:
 
 ```json
 {
-  "extends": "@3fs"
+  "extends": "tcd"
 }
 ```
 
@@ -36,13 +36,13 @@ You can override settings from the shareable config by adding them directly into
 
 ### All available configs
 
-* `@3fs` or `@3fs/eslint-config/configs/esnext` - ES6+ config
-* `@3fs/eslint-config/configs/es5` - ES5 config
-* `@3fs/eslint-config/configs/node` - ES6+ NodeJS config
-* `@3fs/eslint-config/configs/node-es5` - ES5 NodeJS config
-* `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
-* `@3fs/eslint-config/configs/react` - React config; Requires [eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y]
-* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [typescript-eslint-parser][typescript-eslint-parser] (has `no-undef` bug: [#416][typescript-parser-bug-1]) and [eslint-plugin-typescript][eslint-plugin-typescript]
+* `tcd` or `eslint-config-tcd/configs/esnext` - ES6+ config
+* `eslint-config-tcd/configs/es5` - ES5 config
+* `eslint-config-tcd/configs/node` - ES6+ NodeJS config
+* `eslint-config-tcd/configs/node-es5` - ES5 NodeJS config
+* `eslint-config-tcd/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
+* `eslint-config-tcd/configs/react` - React config; Requires [eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y]
+* `eslint-config-tcd/configs/ts` - TypeScript config; Requires [typescript-eslint-parser][typescript-eslint-parser] (has `no-undef` bug: [#416][typescript-parser-bug-1]) and [eslint-plugin-typescript][eslint-plugin-typescript]
 
 
 
@@ -50,10 +50,10 @@ You can override settings from the shareable config by adding them directly into
 
 [//]: # (main)
 
-[npm-image]: https://img.shields.io/npm/v/@3fs/eslint-config.svg
-[npm-url]: https://npmjs.org/package/@3fs/eslint-config
-[downloads-image]: https://img.shields.io/npm/dm/@3fs/eslint-config.svg
-[downloads-url]: https://npmjs.org/package/@3fs/eslint-config
+[npm-image]: https://img.shields.io/npm/v/thecodedestroyer/eslint-config-tcd.svg
+[npm-url]: https://npmjs.org/package/thecodedestroyer/eslint-config-tcd
+[downloads-image]: https://img.shields.io/npm/dm/thecodedestroyer/eslint-config-tcd.svg
+[downloads-url]: https://npmjs.org/package/thecodedestroyer/eslint-config-tcd
 [shareable-configs-url]: http://eslint.org/docs/developer-guide/shareable-configs
 
 [//]: # (other)

@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@3fs', '@3fs/eslint-config/configs/jsx-a11y'],
+  extends: ['tcd', 'eslint-config-tcd/configs/jsx-a11y'],
   plugins: ['react'],
   parserOptions: { ecmaFeatures: { jsx: true } },
   settings: {
