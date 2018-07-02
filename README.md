@@ -5,9 +5,9 @@
 ## Installation
 
 ```sh
-npm install @3fs/eslint-config [eslint@6.8.0]
+npm install eslint-config-tcd [eslint@6.8.0]
 # OR
-yarn add  @3fs/eslint-config [eslint@6.8.0]
+yarn add  eslint-config-tcd [eslint@6.8.0]
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ Then, add this to your .eslintrc(.js|.json|.yml) file:
 
 ```json
 {
-  "extends": "@3fs"
+  "extends": "tcd"
 }
 ```
 
@@ -40,14 +40,14 @@ You can override settings from the shareable config by adding them directly into
 
 ### All available configs
 
-* `@3fs` or `@3fs/eslint-config/configs/esnext` - ES6+ config; Requires [babel-eslint@10.1.0][babel-eslint]
-* `@3fs/eslint-config/configs/es5` - ES5 config
-* `@3fs/eslint-config/configs/node` - ES6+ NodeJS config; Requires [babel-eslint@10.1.0][babel-eslint]
-* `@3fs/eslint-config/configs/node-es5` - ES5 NodeJS config
-* `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular@4.0.1][eslint-plugin-angular]
-* `@3fs/eslint-config/configs/react` - React config; Requires [babel-eslint@10.1.0][babel-eslint], [eslint-plugin-react@7.19.0][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y], [eslint-plugin-react-hooks@3.0.0][eslint-plugin-react-hooks]
-* `@3fs/eslint-config/configs/react-native` - React Native config; Requires [babel-eslint@10.1.0][babel-eslint], [eslint-plugin-react@7.19.0][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y] and [eslint-plugin-react-native@3.8.1][eslint-plugin-react-native]
-* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [typescript@3.8.1][typescript], [@typescript-eslint/eslint-plugin@2.25.0][@typescript-eslint/eslint-plugin], [@typescript-eslint/parser@2.25.0][@typescript-eslint/parser]
+* `tcd/configs/esnext` - ES6+ config; Requires [babel-eslint@10.1.0][babel-eslint]
+* `tcd/configs/es5` - ES5 config
+* `tcd/configs/node` - ES6+ NodeJS config; Requires [babel-eslint@10.1.0][babel-eslint]
+* `tcd/configs/node-es5` - ES5 NodeJS config
+* `tcd/configs/ng` - AngularJS config; Requires [eslint-plugin-angular@4.0.1][eslint-plugin-angular]
+* `tcd/configs/react` - React config; Requires [babel-eslint@10.1.0][babel-eslint], [eslint-plugin-react@7.19.0][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y], [eslint-plugin-react-hooks@3.0.0][eslint-plugin-react-hooks]
+* `tcd/configs/react-native` - React Native config; Requires [babel-eslint@10.1.0][babel-eslint], [eslint-plugin-react@7.19.0][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y] and [eslint-plugin-react-native@3.8.1][eslint-plugin-react-native]
+* `tcd/configs/ts` - TypeScript config; Requires [typescript@3.8.1][typescript], [@typescript-eslint/eslint-plugin@2.25.0][@typescript-eslint/eslint-plugin], [@typescript-eslint/parser@2.25.0][@typescript-eslint/parser]
 
 
 
