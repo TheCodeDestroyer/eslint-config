@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@3fs/eslint-config/configs/react'],
+  extends: ['tcd/configs/react'],
   plugins: ['react-native'],
   env: {
     'react-native/react-native': true
