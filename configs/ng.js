@@ -1,6 +1,6 @@
 module.exports = {
-  extends: 'eslint-config-tcd/configs/es5',
-  globals: { angular: true },
+  extends: 'tcd/configs/es5',
+  globals: { 'angular': true },
   plugins: ['angular'],
   rules: {
     'consistent-this': [
