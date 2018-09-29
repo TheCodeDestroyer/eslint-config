@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'eslint-config-tcd/configs/defaults',
+  extends: 'tcd/configs/defaults',
   env: { 'es6': true },
   parser: 'babel-eslint',
   parserOptions: {
