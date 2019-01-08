@@ -55,10 +55,10 @@ You can override settings from the shareable config by adding them directly into
 
 [//]: # (main)
 
-[npm-image]: https://img.shields.io/npm/v/@3fs/eslint-config.svg
-[npm-url]: https://npmjs.org/package/@3fs/eslint-config
-[downloads-image]: https://img.shields.io/npm/dm/@3fs/eslint-config.svg
-[downloads-url]: https://npmjs.org/package/@3fs/eslint-config
+[npm-image]: https://img.shields.io/npm/v/eslint-config-tcd.svg
+[npm-url]: https://npmjs.org/package/eslint-config-tcd
+[downloads-image]: https://img.shields.io/npm/dm/eslint-config-tcd.svg
+[downloads-url]: https://npmjs.org/package/eslint-config-tcd
 [shareable-configs-url]: http://eslint.org/docs/developer-guide/shareable-configs
 
 [//]: # (other)
