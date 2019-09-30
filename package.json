@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tcd",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "TCD ESLint Config",
   "main": "index.js",
   "scripts": {
