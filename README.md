@@ -44,7 +44,6 @@ You can override settings from the shareable config by adding them directly into
 * `tcd/configs/es5` - ES5 config
 * `tcd/configs/node` - ES6+ NodeJS config; Requires [babel-eslint@10.1.0][babel-eslint]
 * `tcd/configs/node-es5` - ES5 NodeJS config
-* `tcd/configs/ng` - AngularJS config; Requires [eslint-plugin-angular@4.0.1][eslint-plugin-angular]
 * `tcd/configs/react` - React config; Requires [babel-eslint@10.1.0][babel-eslint], [eslint-plugin-react@7.22.0][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.4.1][eslint-plugin-jsx-a11y], [eslint-plugin-react-hooks@4.2.0][eslint-plugin-react-hooks]
 * `tcd/configs/ts` - TypeScript config; Requires [typescript@4.1.3][typescript], [@typescript-eslint/eslint-plugin@4.12.0][@typescript-eslint/eslint-plugin], [@typescript-eslint/parser@4.12.0][@typescript-eslint/parser]
 
@@ -63,7 +62,6 @@ You can override settings from the shareable config by adding them directly into
 [//]: # (other)
 
 [babel-eslint]: https://www.npmjs.com/package/babel-eslint
-[eslint-plugin-angular]: https://www.npmjs.com/package/eslint-plugin-angular
 [eslint-plugin-react]: https://www.npmjs.com/package/eslint-plugin-react
 [eslint-plugin-jsx-a11y]: https://www.npmjs.com/package/eslint-plugin-jsx-a11y
 [eslint-plugin-react-hooks]: https://www.npmjs.com/package/eslint-plugin-react-hooks
