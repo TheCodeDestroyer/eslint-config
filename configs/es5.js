@@ -1,4 +1,5 @@
+/* eslint sort-keys: "error" */
 module.exports = {
-  extends: 'tcd/configs/defaults',
-  env: { 'browser': true }
+  env: { 'browser': true },
+  extends: 'tcd/configs/defaults'
 };

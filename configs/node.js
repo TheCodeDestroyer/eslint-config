@@ -1,4 +1,5 @@
+/* eslint sort-keys: "error" */
 module.exports = {
-  extends: 'tcd',
-  env: { 'node': true }
+  env: { 'node': true },
+  extends: 'tcd'
 };
