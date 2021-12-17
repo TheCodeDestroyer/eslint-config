@@ -2,7 +2,6 @@
 module.exports = {
   env: { 'es6': true },
   extends: 'tcd/configs/defaults',
-  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 9,
     sourceType: 'module'

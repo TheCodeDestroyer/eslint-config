@@ -22,11 +22,14 @@ module.exports = {
     'no-loss-of-precision': 'off',
     'no-magic-numbers': 'off',
     'no-redeclare': 'off',
+    'no-restricted-imports': 'off',
     'no-shadow': 'off',
     'no-unused-expressions': 'off',
     'no-unused-vars': 'off',
     'no-use-before-define': 'off',
     'no-useless-constructor': 'off',
+    'object-curly-spacing': 'off',
+    'padding-line-between-statements': 'off',
     'quotes': 'off',
     'require-await': 'off',
     'semi': 'off',
@@ -49,6 +52,7 @@ module.exports = {
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
     '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/consistent-type-definitions': 'error',
+    '@typescript-eslint/consistent-type-exports': 'off',
     '@typescript-eslint/consistent-type-imports': ['error', { 'prefer': 'no-type-imports' }],
     '@typescript-eslint/default-param-last': 'error',
     '@typescript-eslint/dot-notation': 'error',
@@ -108,7 +112,6 @@ module.exports = {
     '@typescript-eslint/no-extraneous-class': ['error', { 'allowWithDecorator': true }],
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/no-for-in-array': 'error',
-    '@typescript-eslint/no-implicit-any-catch': 'error',
     '@typescript-eslint/no-implied-eval': 'error',
     '@typescript-eslint/no-inferrable-types': ['error', { 'ignoreParameters': true, 'ignoreProperties': true }],
     '@typescript-eslint/no-invalid-this': 'error',
@@ -116,9 +119,11 @@ module.exports = {
     '@typescript-eslint/no-loop-func': 'error',
     '@typescript-eslint/no-loss-of-precision': 'error',
     '@typescript-eslint/no-magic-numbers': 'off',
+    '@typescript-eslint/no-meaningless-void-operator': 'error',
     '@typescript-eslint/no-misused-new': 'error',
     '@typescript-eslint/no-misused-promises': 'error',
     '@typescript-eslint/no-namespace': 'error',
+    '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
     '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
     '@typescript-eslint/no-non-null-assertion': 'error',
     '@typescript-eslint/no-parameter-properties': ['error', {
@@ -132,6 +137,7 @@ module.exports = {
     }],
     '@typescript-eslint/no-redeclare': 'error',
     '@typescript-eslint/no-require-imports': 'error',
+    '@typescript-eslint/no-restricted-imports': 'off',
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-this-alias': 'error',
     '@typescript-eslint/no-throw-literal': 'error',
@@ -142,6 +148,7 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
     '@typescript-eslint/no-unnecessary-type-constraint': 'error',
+    '@typescript-eslint/no-unsafe-argument': 'error',
     '@typescript-eslint/no-unsafe-assignment': 'off',
     '@typescript-eslint/no-unsafe-call': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',
@@ -152,6 +159,37 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'error',
     '@typescript-eslint/no-var-requires': 'error',
     '@typescript-eslint/non-nullable-type-assertion-style': 'error',
+    '@typescript-eslint/object-curly-spacing': ['error', 'always'],
+    '@typescript-eslint/padding-line-between-statements': [
+      'error',
+      {
+        blankLine: 'always',
+        next: '*',
+        prev: [
+          'const',
+          'let',
+          'var'
+        ]
+      },
+      {
+        blankLine: 'any',
+        next: [
+          'const',
+          'let',
+          'var'
+        ],
+        prev: [
+          'const',
+          'let',
+          'var'
+        ]
+      },
+      {
+        blankLine: 'always',
+        next: 'return',
+        prev: '*'
+      }
+    ],
     '@typescript-eslint/prefer-as-const': 'error',
     '@typescript-eslint/prefer-enum-initializers': 'error',
     '@typescript-eslint/prefer-for-of': 'error',
@@ -165,6 +203,7 @@ module.exports = {
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
     '@typescript-eslint/prefer-regexp-exec': 'error',
+    '@typescript-eslint/prefer-return-this-type': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/prefer-ts-expect-error': 'error',
     '@typescript-eslint/promise-function-async': 'error',
