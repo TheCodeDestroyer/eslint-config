@@ -44,6 +44,7 @@ You can override settings from the shareable config by adding them directly into
 * `tcd/configs/node` - ES6+ NodeJS config
 * `tcd/configs/react` - React config; Requires [eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y], [eslint-plugin-react-hooks][eslint-plugin-react-hooks]
 * `tcd/configs/ts` - TypeScript config; Requires [typescript][typescript], [@typescript-eslint/eslint-plugin][@typescript-eslint/eslint-plugin], [@typescript-eslint/parser][@typescript-eslint/parser]
+* `tcd/configs/next` - NextJS config; Requires [@next/eslint-plugin-next][@next/eslint-plugin-next], [eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y], [eslint-plugin-react-hooks][eslint-plugin-react-hooks]
 
 
 [//]: # (URLs)
@@ -62,4 +63,6 @@ You can override settings from the shareable config by adding them directly into
 [typescript]: https://www.npmjs.com/package/typescript
 [@typescript-eslint/parser]: https://www.npmjs.com/package/@typescript-eslint/parser
 [@typescript-eslint/eslint-plugin]: https://www.npmjs.com/package/@typescript-eslint/eslint-plugin
+[@next/eslint-plugin-next]: https://www.npmjs.com/package/@next/eslint-plugin-next
+
 

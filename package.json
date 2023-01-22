@@ -8,6 +8,7 @@
     "find-deprecated-rules": "eslint-find-rules -dn",
     "find-deprecated-rules:defaults": "yarn find-deprecated-rules ./configs/defaults.js",
     "find-deprecated-rules:esnext": "yarn find-deprecated-rules ./configs/esnext.js",
+    "find-deprecated-rules:next": "yarn find-deprecated-rules ./configs/next.js",
     "find-deprecated-rules:node": "yarn find-deprecated-rules ./configs/node.js",
     "find-deprecated-rules:react": "yarn find-deprecated-rules ./configs/react.js",
     "find-deprecated-rules:ts": "yarn find-deprecated-rules ./configs/ts.js"
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/thecodedestroyer/eslint-config-tcd#readme",
   "devDependencies": {
+    "@next/eslint-plugin-next": "13.1.4",
     "@typescript-eslint/eslint-plugin": "5.48.2",
     "@typescript-eslint/parser": "5.48.2",
     "eslint": "8.32.0",
