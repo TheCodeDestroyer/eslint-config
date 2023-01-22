@@ -4,17 +4,13 @@
   "description": "TCD ESLint Config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "yarn version --patch",
-    "find-missing-rules": "eslint-find-rules -dunp",
-    "find-missing-rules:defaults": "eslint-find-rules -dunp ./configs/defaults.js",
-    "find-missing-rules:es5": "eslint-find-rules -dunp ./configs/es5.js",
-    "find-missing-rules:esnext": "eslint-find-rules -dunp ./configs/esnext.js",
-    "find-missing-rules:a11y": "eslint-find-rules -dunp ./configs/jsx-a11y.js",
-    "find-missing-rules:node": "eslint-find-rules -dunp ./configs/node.js",
-    "find-missing-rules:node-es5": "eslint-find-rules -dunp ./configs/node-es5.js",
-    "find-missing-rules:react": "eslint-find-rules -dunp ./configs/react.js",
-    "find-missing-rules:ts": "eslint-find-rules -dunp ./configs/ts.js"
+    "find-deprecated-rules": "eslint-find-rules -dn",
+    "find-deprecated-rules:defaults": "yarn find-deprecated-rules ./configs/defaults.js",
+    "find-deprecated-rules:esnext": "yarn find-deprecated-rules ./configs/esnext.js",
+    "find-deprecated-rules:node": "yarn find-deprecated-rules ./configs/node.js",
+    "find-deprecated-rules:react": "yarn find-deprecated-rules ./configs/react.js",
+    "find-deprecated-rules:ts": "yarn find-deprecated-rules ./configs/ts.js"
   },
   "repository": {
     "type": "git",
@@ -28,16 +24,20 @@
   },
   "homepage": "https://github.com/thecodedestroyer/eslint-config-tcd#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.7.0",
-    "@typescript-eslint/parser": "5.7.0",
-    "eslint": "8.4.1",
-    "eslint-find-rules": "4.0.0",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-react": "7.27.1",
-    "eslint-plugin-react-hooks": "4.3.0",
-    "typescript": "4.5.4"
+    "@typescript-eslint/eslint-plugin": "5.48.2",
+    "@typescript-eslint/parser": "5.48.2",
+    "eslint": "8.32.0",
+    "eslint-find-rules": "4.1.0",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "prettier": "2.8.3",
+    "typescript": "4.9.4"
+  },
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
   },
   "peerDependencies": {
-    "eslint": "=8.4.1"
+    "eslint": ">= 8"
   }
 }

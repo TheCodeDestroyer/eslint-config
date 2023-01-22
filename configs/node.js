@@ -1,5 +1,5 @@
 /* eslint sort-keys: "error" */
 module.exports = {
-  env: { 'node': true },
-  extends: 'tcd'
+  env: { node: true },
+  extends: 'tcd/configs/defaults'
 };

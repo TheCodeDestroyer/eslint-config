@@ -6,26 +6,6 @@
 # General
 .idea/
 
-## File-based project format:
-*.iws
-
-## Plugin-specific files:
-
-# IntelliJ
-/out/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-
 ### Node template
 # Logs
 logs
@@ -85,3 +65,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# Other
+.nvmrc
