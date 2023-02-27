@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thecodedestroyer/eslint-config-tcd.git"
+    "url": "git+https://github.com/thecodedestroyer/eslint-config.git"
   },
   "keywords": [],
   "author": "Nace Logar <the.code.destroyer@gmail.com> (https://thecodedestroyer.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thecodedestroyer/eslint-config-tcd/issues"
+    "url": "https://github.com/thecodedestroyer/eslint-config/issues"
   },
-  "homepage": "https://github.com/thecodedestroyer/eslint-config-tcd#readme",
+  "homepage": "https://github.com/thecodedestroyer/eslint-config#readme",
   "devDependencies": {
     "@next/eslint-plugin-next": "13.1.6",
     "@typescript-eslint/eslint-plugin": "5.53.0",
