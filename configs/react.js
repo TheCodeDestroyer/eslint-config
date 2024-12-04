@@ -33,7 +33,7 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     'react/jsx-fragments': ['error', 'element'],
 
-    'react/jsx-max-depth': ['error', { max: 5 }],
+    'react/jsx-max-depth': ['error', { max: 7 }],
     'react/jsx-max-props-per-line': [
       'error',
       { maximum: 1, when: 'multiline' }

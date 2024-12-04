@@ -6,11 +6,13 @@ module.exports = {
   rules: {
     camelcase: 'off',
     'lines-between-class-members': 'off',
+    'no-duplicate-imports': 'off',
     'no-invalid-this': 'off',
     'no-return-await': 'off',
     'no-unused-expressions': 'off',
     'no-use-before-define': 'off',
     'padding-line-between-statements': 'off',
+    'require-unicode-regexp': 'off',
 
     // TYPESCRIPT RULES
 
@@ -18,35 +20,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': ['error'],
     '@typescript-eslint/default-param-last': 'error',
     '@typescript-eslint/lines-between-class-members': ['error', 'always'],
-    '@typescript-eslint/naming-convention': [
-      'error',
-      {
-        format: ['camelCase'],
-        leadingUnderscore: 'allow',
-        selector: 'default',
-        trailingUnderscore: 'allow'
-      },
-      {
-        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
-        leadingUnderscore: 'allow',
-        selector: 'variableLike',
-        trailingUnderscore: 'allow'
-      },
-      {
-        format: ['camelCase', 'UPPER_CASE'],
-        leadingUnderscore: 'allow',
-        selector: 'objectLiteralProperty',
-        trailingUnderscore: 'allow'
-      },
-      {
-        format: ['PascalCase'],
-        selector: 'typeLike'
-      },
-      {
-        format: ['PascalCase'],
-        selector: 'enumMember'
-      }
-    ],
+    '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/no-invalid-this': 'error',
     '@typescript-eslint/no-loop-func': 'error',
     '@typescript-eslint/no-unused-expressions': 'error',
