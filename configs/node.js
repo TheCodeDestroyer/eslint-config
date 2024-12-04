@@ -1,5 +1,13 @@
-/* eslint sort-keys: "error" */
-module.exports = {
-  env: { node: true },
-  extends: 'tcd/configs/defaults'
-};
+const defaultConfig = require('./default');
+const globals = require('globals');
+
+module.exports = [
+  ...defaultConfig,
+  {
+    languageOptions: {
+      globals: {
+        ...globals.node
+      }
+    }
+  }
+];
