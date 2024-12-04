@@ -1,8 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", ":automergeLinters"],
+  "extends": [
+    "config:recommended",
+    ":automergeLinters",
+    ":automergeBranch",
+    ":automergeMinor",
+    ":prHourlyLimit1"
+  ],
   "lockFileMaintenance": {
     "enabled": true
   },
-  "configMigration": true
+  "configMigration": true,
+  "branchConcurrentLimit": 3
 }
