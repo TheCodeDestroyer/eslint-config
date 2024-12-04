@@ -12,11 +12,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Install NodeJS
         uses: actions/setup-node@v4
         with:
-          registry-url: https://registry.npmjs.org/
-          node-version: '18'
+          node-version: 20
+
+      - name: Install PNPM
+        id: pnpm-install
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+          run_install: false
 
       - name: Git configuration
         run: |
@@ -25,7 +31,7 @@ jobs:
 
       - name: Bump release version
         run: |
-          echo "NEW_VERSION=$(npm version $RELEASE_TYPE)" >> $GITHUB_ENV
+          echo "NEW_VERSION=$(pnpm version $RELEASE_TYPE)" >> $GITHUB_ENV
         env:
           RELEASE_TYPE: ${{ github.event.inputs.release-type }}
 
