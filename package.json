@@ -4,14 +4,14 @@
   "description": "TCD ESLint Config",
   "main": "index.js",
   "scripts": {
-    "patch": "yarn version --patch",
+    "patch": "pnpm version --patch",
     "find-deprecated-rules": "eslint-find-rules -dn",
-    "find-deprecated-rules:defaults": "yarn find-deprecated-rules ./configs/defaults.js",
-    "find-deprecated-rules:esnext": "yarn find-deprecated-rules ./configs/esnext.js",
-    "find-deprecated-rules:next": "yarn find-deprecated-rules ./configs/next.js",
-    "find-deprecated-rules:node": "yarn find-deprecated-rules ./configs/node.js",
-    "find-deprecated-rules:react": "yarn find-deprecated-rules ./configs/react.js",
-    "find-deprecated-rules:ts": "yarn find-deprecated-rules ./configs/ts.js"
+    "find-deprecated-rules:defaults": "pnpm find-deprecated-rules ./configs/defaults.js",
+    "find-deprecated-rules:esnext": "pnpm find-deprecated-rules ./configs/esnext.js",
+    "find-deprecated-rules:next": "pnpm find-deprecated-rules ./configs/next.js",
+    "find-deprecated-rules:node": "pnpm find-deprecated-rules ./configs/node.js",
+    "find-deprecated-rules:react": "pnpm find-deprecated-rules ./configs/react.js",
+    "find-deprecated-rules:ts": "pnpm find-deprecated-rules ./configs/ts.js"
   },
   "repository": {
     "type": "git",
@@ -35,9 +35,6 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "prettier": "3.4.1",
     "typescript": "5.0.4"
-  },
-  "engines": {
-    "node": "^10.12.0 || >=12.0.0"
   },
   "peerDependencies": {
     "eslint": ">= 8"
