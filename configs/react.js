@@ -66,7 +66,7 @@ module.exports = [
       'react/jsx-no-constructed-context-values': 'error',
       'react/jsx-no-script-url': 'error',
       'react/jsx-no-useless-fragment': 'error',
-      'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
+      'react/jsx-one-expression-per-line': 'off',
       'react/jsx-pascal-case': 'error',
       'react/no-array-index-key': 'error',
       'react/no-danger': 'warn',

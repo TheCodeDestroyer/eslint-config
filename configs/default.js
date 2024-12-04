@@ -19,7 +19,7 @@ module.exports = [
       'max-depth': ['error', 4],
       'max-nested-callbacks': ['error', 3],
       'max-params': ['error', 5],
-      'max-statements': ['warn', 20, { ignoreTopLevelFunctions: true }],
+      'max-statements': ['warn', 25, { ignoreTopLevelFunctions: true }],
       'max-statements-per-line': ['error', { max: 1 }],
       'multiline-comment-style': ['error', 'starred-block'],
       'new-cap': ['error', { capIsNew: false, newIsCap: true }],
