@@ -2,7 +2,7 @@
   "name": "eslint-config-tcd",
   "version": "2.0.0",
   "description": "TCD ESLint Config",
-  "main": "eslint.config.js",
+  "main": "./configs/default.js",
   "scripts": {
     "patch": "pnpm version --patch",
     "lint": "eslint"
