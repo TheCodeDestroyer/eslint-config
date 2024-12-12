@@ -13,6 +13,13 @@ module.exports = [
   reactPlugin.configs.flat.recommended,
   reactPlugin.configs.flat['jsx-runtime'],
   {
+    settings: {
+      react: {
+        version: 'detect'
+      }
+    }
+  },
+  {
     languageOptions: {
       ...reactPlugin.configs.flat.recommended.languageOptions,
       globals: {
