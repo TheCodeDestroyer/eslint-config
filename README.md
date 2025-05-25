@@ -1,4 +1,28 @@
-# eslint-config [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+# eslint-config (ARCHIVED) [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+
+**❗ This repository and the `eslint-config-tcd` package are now archived and no longer maintained. ❗**
+
+**All configurations have been moved to a new monorepo named "devkit" and significantly updated for ESLint v9+ (Flat Config).**
+
+## New Location & Packages
+
+Please migrate to the new configurations available in the **[@tcd-devkit monorepo: TheCodeDestroyer/devkit](https://github.com/TheCodeDestroyer/devkit)**.
+
+The new packages are published under the `@tcd-devkit` npm scope. For example, if you were using `eslint-config-tcd/configs/next`, you will now look for a package like `@tcd-devkit/eslint-preset-next`.
+
+**Key changes in the new system:**
+*   **ESLint v9+ Flat Config:** The new configurations exclusively use the modern `eslint.config.js` (flat config) format.
+*   **Modular Packages:** The system is now more modular, with granular `eslint-config-*` packages and convenient `eslint-preset-*` packages.
+*   **Improved Dependency Management:** ESLint plugins are now direct dependencies of the config/preset packages, simplifying setup for users.
+
+**Please visit the new repository for updated installation and usage instructions:**
+➡️ **[https://github.com/TheCodeDestroyer/devkit](https://github.com/TheCodeDestroyer/devkit)** ⬅️
+
+---
+
+*Original README content below (for historical reference only):*
+
+---
 
 #### An ESLint [Shareable Config][shareable-configs-url]
 
